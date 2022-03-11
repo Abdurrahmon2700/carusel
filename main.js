@@ -37,7 +37,6 @@ function run() {
 
 function resetInter() {
     clearInterval(interval);
-
      interval = setInterval(run, 2000);
 
 }

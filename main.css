@@ -8,17 +8,24 @@ body {
   justify-content: center;
   margin: 0 auto;
   min-height: 100vh;
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(62,89,106,1) 53%, rgba(0,41,69,0.10717790534182425) 100%, rgba(0,212,255,1) 100%);
 }
 
 .containar {
   width: 500px;
-  height: 530px;
-  overflow-x: hidden;
+  height: 500px;
+  overflow: hidden;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+  
 }
 .img-container {
   display: flex;
   transition: all 0.5s ease-in;
   transform: translateX(0);
+
+
 }
 .button-part {
   display: flex;
@@ -29,5 +36,26 @@ body {
 img {
   width: 500px;
   height: 500px;
-  object-fit: contain;
+  object-fit: cover;
+}
+
+button {
+  position: absolute;
+  top: 50%;
+  border: none;
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(62,89,106,1) 53%, rgba(0,41,69,0.10717790534182425) 100%, rgba(0,212,255,1) 100%);
+}
+
+.bx {
+  font-size: 30px;
+ 
+}
+
+#left {
+  margin-left: -50px;
+}
+
+#right {
+  margin-left: 520px;
 }
