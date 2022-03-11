@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+} 
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  min-height: 100vh;
+}
+
+.containar {
+  width: 500px;
+  height: 530px;
+  overflow-x: hidden;
+}
+.img-container {
+  display: flex;
+  transition: all 0.5s ease-in;
+  transform: translateX(0);
+}
+.button-part {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+img {
+  width: 500px;
+  height: 500px;
+  object-fit: contain;
+}
